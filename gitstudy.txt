@@ -8,3 +8,5 @@
 8、	回滚到上一个版本	git reset --hard HEAD^ HEAD表示当前版本 HEAD^上一个 HEAD^^上上个;
 9、	回溯新版本		git reset --hard commitID ;
 10、	查看命令历史		git reflog; 用来记录你的每一次命令;
+11、	丢弃工作区修改		git checkout -- file  让file文件回到最近一次commit或add时的状态;
+
