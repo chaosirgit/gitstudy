@@ -1,0 +1,5 @@
+1、	设置git			git --config user.name "chaosirgit" user.email "qq278935403@email.com";
+2、	创建版本库		在仓库目录下git init;
+3、	把文件添加到仓库	git add filename;
+4、	提交			git commit -m "注释";
+
