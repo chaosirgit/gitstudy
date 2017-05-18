@@ -4,4 +4,4 @@
 4、	提交			git commit -m "注释";
 5、	查看仓库当前状态	git status;
 6、	查看具体修改的内容	git diff;
-
+7、
