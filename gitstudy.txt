@@ -19,4 +19,7 @@
 1、	创建ssh key		ssh-keygen -t rsa -C "278935403@gmail.com";生成.ssh目录 
 				id_rsa是私钥，不能泄漏，id_rsa.pub是公钥，可以泄漏
 2、	登陆github,个人设置，SSH Keys页面，填写标题，复制id_rsa.pub内容粘贴到文本框里。生成密钥。
+3、	关联本地仓库与远程仓库	git remote add <远程库名> git@github.com:<github账户名>/chaosirgit.git
+4、	推送			git push [-u] <远程库名> <分支名>;第一次推送使用-u参数;
+
 
