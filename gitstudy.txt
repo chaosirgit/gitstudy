@@ -6,7 +6,7 @@
 6、	查看具体修改的内容	git diff;
 7、	查看提交历史		git log;
 8、	回滚到上一个版本	git reset --hard HEAD^ HEAD表示当前版本 HEAD^上一个 HEAD^^上上个;
-9、	回溯新版本		git reset --hard commitID ;
+9、	前进新版本		git reset --hard commitID ;
 10、	查看命令历史		git reflog; 用来记录你的每一次命令;
 11、	丢弃工作区修改		git checkout -- file  让file文件回到最近一次commit或add时的状态;
 12、	从暂存区移动到工作区	git reset HEAD file 让file文件从add过后的暂存区移动到工作区;
