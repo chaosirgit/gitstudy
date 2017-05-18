@@ -10,4 +10,5 @@
 10、	查看命令历史		git reflog; 用来记录你的每一次命令;
 11、	丢弃工作区修改		git checkout -- file  让file文件回到最近一次commit或add时的状态;
 12、	从暂存区移动到工作区	git reset HEAD file 让file文件从add过后的暂存区移动到工作区;
+13、	从版本库删除		git rm file;
 
